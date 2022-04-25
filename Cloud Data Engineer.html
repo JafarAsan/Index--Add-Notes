@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>LinkedIn Add Note</h1>
+<h2>Enter the name below</h2>
+
+<p>Click the button and enter the name.</p>
+
+<button onclick="myFunction()">Enter</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("Please enter name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hi " + person + ",<br>I am Jabar from VDart and I am Hiring for a Cloud Data Engineer in Bangalore, India(Remote). Please let me know if you are interested and kindly respond with your resume to jabar.k@vdartinc.com.";
+  }
+}
+</script>
+<p>Kind & Regards<br>Jabar<br>+91 9384 929 382<br>jabar.k@vdartinc.com</p>
+</body>
+</html>
+
+Hi Harry Potter,
+I am Jabar from VDart and I am Hiring for a Cloud Data Engineer in Bangalore, India(Remote). Please let me know if you are interested and kindly respond with your resume to jabar.k@vdartinc.com
+
+Kind & Regards
+Jabar<br>+91 9384 929382
+jabar.k@vdartinc.com
